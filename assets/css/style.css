@@ -314,6 +314,17 @@ img { max-width: 100%; display: block; }
   font-size: 0.98rem;
 }
 
+/* About */
+.about-grid { margin-bottom: 40px; }
+.about-story p {
+  color: var(--uch-text-muted);
+  max-width: 68ch;
+  margin: 0 0 16px;
+  font-size: 1.02rem;
+  line-height: 1.85;
+}
+.about-story p:last-child { margin-bottom: 0; }
+
 /* Booking */
 .section-booking { background: var(--uch-bg-soft); }
 .booking-grid {
