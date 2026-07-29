@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.ouyuzhen-realty.tw/sitemap.xml
+Sitemap: https://sataco0515.github.io/ouyuzhen-realty/sitemap.xml

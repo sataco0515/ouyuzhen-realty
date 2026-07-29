@@ -1,4 +1,19 @@
 (function () {
+  var navToggle = document.getElementById('nav-toggle');
+  var siteNav = document.getElementById('site-nav');
+  if (navToggle && siteNav) {
+    navToggle.addEventListener('click', function () {
+      var isOpen = siteNav.classList.toggle('is-open');
+      navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+    siteNav.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        siteNav.classList.remove('is-open');
+        navToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
+
   var form = document.getElementById('booking-form');
   var hint = document.getElementById('form-hint');
   if (!form) return;
