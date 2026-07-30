@@ -343,6 +343,16 @@ img { max-width: 100%; display: block; }
   margin: 0;
   font-size: 0.98rem;
 }
+.area-tags {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+.area-tags li {
+  background: var(--uch-bg-soft);
+  border-color: var(--uch-border);
+  color: var(--uch-primary);
+  font-weight: 700;
+}
 
 /* About */
 .about-grid { margin-bottom: 40px; }
